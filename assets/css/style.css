@@ -8,8 +8,19 @@ header {
     height: 60px;
     color: #fff;
     background-color: #000;
-    border-bottom: solid 1px #ffd600;
+    /*border-bottom: solid 1px #ffd600;*/
+    border-bottom: solid 1px #c7a500;
+    
 }
+
+.home-icon {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+   /* color: #ffd600;*/
+   color: #c7a500;
+}
+
 
 .intro-section {
     background-color: #fafafa;
@@ -22,6 +33,16 @@ header {
    width: 95%;
    margin-top: 20px;
    margin-left: 20px;
+}
+
+.intro-img {
+    box-sizing: content-box; 
+    
+    margin-top: 20px;
+   margin-left: 20px;
+   height:90%;
+   width: 85%;
+   filter: grayscale(100%);
 }
 
 h3 {
@@ -58,20 +79,12 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
+    transition: all .2s ease-in-out;
 }
 
 nav ul li a:hover {
     color: #ffd600;
     text-decoration: none;
-}
-
-
-img {
-    box-sizing: content-box; 
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 240px;
-    height: 400px;
 }
 
 .home-top {
@@ -81,13 +94,30 @@ img {
     background-size: cover;
 }
 
-.home-top h1 {
+.gym-name {
     text-align: center;
     color: #fafafa;
     font-size: 60px;
-    transform: translateY(50%);
+   
     text-transform: uppercase;
+    animation-name: uplift;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    
 }
+
+@keyframes uplift {
+    from {
+       transform: translateY(700%);
+    }
+    
+    to {
+        transform: translateY(50%);
+    }
+}
+
 
 .home-top h4 {
     text-align: center;
@@ -145,14 +175,18 @@ img {
 .classes-wrapper{
     height: 400px;
     width: 280px;
-    position:relative;
+    position: relative;
     margin:0 auto;
 }
 
 .classes-img {
+    box-sizing: content-box;
     height: 100%;
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .times-overlay {
     height: 100%;
     width: 100%;
@@ -226,17 +260,153 @@ img {
     border: 1px solid #ffd600;
 }
 
+.plan-wrapper-gold, .plan-wrapper-silver, .plan-wrapper-bronze {
+    height: 500px;
+    width:300px;
+    border: solid 2px;
+    margin-top: 50px;
+    margin-left:50px;
+    text-align: center;
+}
+
+.plan-wrapper-gold {
+    border-color: #c7a500;
+}
+
+.plan-wrapper-silver {
+    border-color: #9ea7aa;
+}
+
+.plan-wrapper-bronze {
+    border-color: #cd7f32;
+}
+
+.plan-badge-gold, .plan-badge-silver, .plan-badge-bronze {
+    position: absolute;
+    transform: translate(108px,-50%);
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.plan-badge-gold {
+    border-color: #c7a500;
+}
+
+.plan-badge-silver {
+    border-color: #9ea7aa;
+}
+
+.plan-badge-bronze {
+    border-color: #cd7f32;
+}
+
+#gold-badge, #silver-badge, #bronze-badge{
+    font-size: 35px;
+    transform: translateY(50%);
+}
+
+#gold-badge {
+        color: #c7a500;
+}
+
+#silver-badge {
+        color: #9ea7aa;
+}
+#bronze-badge {
+        color: #cd7f32;
+}
+
+#gold-title, #silver-title, #bronze-title{
+    position: relative;
+    transform: translateY(50px);
+}
+
+#gold-title {
+    color: #c7a500;
+}
+
+#silver-title {
+    color: #9ea7aa;
+}
+
+#bronze-title {
+    color: #cd7f32;
+}
+
+.plan-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    transform: translateY(60px);
+}
+
+.plan-list li {
+    line-height: 30px;
+}
+
+#gold-check, #silver-check, #bronze-check {
+    margin-left: 5px;
+}
+
+#gold-check {
+    color: #c7a500;
+}
+
+#silver-check {
+    color: #9ea7aa;
+}
+
+#bronze-check {
+    color: #cd7f32;
+}
+
+#gold-price, #silver-price, #bronze-price{
+    display: inline-block;
+    position: relative;
+    transform: translateY(200px);
+}
+
+#gold-medal, #silver-medal, #bronze-medal{
+    display: block;
+    position: relative;
+    transform: translateY(200px);
+    font-size: 40px;
+}
+
+#gold-medal {
+    color: #c7a500;
+}
+
+#silver-medal {
+    color: #9ea7aa;
+}
+
+#bronze-medal {
+    color: #cd7f32;
+}
+
+
 footer {
+    margin-top: 30px;
     background-color: #000;
     color: #fff;
 }
 
 .footer-title {
     padding-top: 15px;
+
 }
 
-footer {
-    margin-top: 30px;
+
+
+.contact-icon {
+    color: #ffd600;
+    padding-right: 5px;
+    margin-bottom: 10px;
 }
 
 .hours-wrapper {
