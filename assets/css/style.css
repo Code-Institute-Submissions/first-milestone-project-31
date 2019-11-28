@@ -401,7 +401,9 @@ footer {
 
 }
 
-
+.footer-list {
+    margin-bottom: 0;
+}
 
 .contact-icon {
     color: #ffd600;
@@ -411,6 +413,10 @@ footer {
 
 .hours-wrapper {
     padding-bottom: 15px;
+}
+
+#connect-list {
+    margin-bottom: 40px;
 }
 /*--------------------------------------------Colors*/
 
