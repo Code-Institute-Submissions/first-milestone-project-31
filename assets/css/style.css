@@ -61,6 +61,8 @@ nav ul li a:hover {
     height:540px;
     background-image: url(../images/gym-class-edit2.jpg);
     background-size: cover;
+    background-position: center;
+   
 }
 
 #gym-name {
@@ -181,6 +183,7 @@ p {
    height:540px;
     background-image: url(../images/gym-class-edit2.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .classes-wrapper{
