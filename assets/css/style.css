@@ -277,8 +277,7 @@ p {
     height: 500px;
     width:300px;
     border: solid 2px;
-    margin-top: 69px;
-    margin-left:50px;
+    margin: 69px auto 0;
     text-align: center;
 }
 
