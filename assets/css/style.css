@@ -105,14 +105,18 @@ nav ul li a:hover {
 #intro-1-wrapper {
     padding-left:20px;
     padding-right:20px;
-    margin-bottom: 40px;
 }
 
 #intro-2-wrapper {
     padding-left:20px;
     padding-right:20px;
-    margin-bottom: 40px;
     
+}
+
+@media(max-width:991px){
+    #intro-2-wrapper {
+        margin-top: 20px;
+    }
 }
 
 .intro-1 {
@@ -415,6 +419,7 @@ p {
 footer {
     background-color: #000;
     color: #fff;
+    margin-top: 40px;
 }
 
 .footer-title {
