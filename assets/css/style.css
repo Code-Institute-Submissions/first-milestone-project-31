@@ -23,20 +23,18 @@ header {
    /* color: #ffd600;*/
 }
 
-nav {
+.desktop-nav {
     text-align: right;
 }
 
 .menu-list {
     display: inline-block;
     padding-left: 0;
-}
-
-nav ul {
     list-style: none;
 }
 
-nav ul li {
+
+.menu-item {
     display: inline-block;
     text-transform: uppercase;
     padding-top: 20px;
@@ -45,15 +43,59 @@ nav ul li {
     font-weight: 600;
 }
 
-nav ul li a {
+.menu-item a {
     color: #fff;
     transition: all .2s ease-in-out;
 }
 
-nav ul li a:hover {
+.menu-item a:hover {
     color: #ffd600;
     text-decoration: none;
 }
+
+
+.dropdown {
+    margin-left:auto; 
+    margin-right: 15px;
+}
+
+/* Overwriting bootstrap's dropdown-menu and dropdown-item classes */
+.dropdown-menu {
+    background: transparent;
+    border: transparent;
+    min-width: 0;
+    left: -50%;
+    text-align: right;
+}
+.dropdown-item {
+    padding: 0;
+    color: #c7a500;
+}
+
+.dropdown-item:hover {
+    padding: 0;
+    color: #fafafa;
+    background: transparent;
+}
+
+.menu-line {
+  width: 35px;
+  height: 4px;
+  background-color: #c7a500;
+  margin: 6px 0;
+}
+
+.navbar-toggle {
+    background-color: #000;
+    border: none;
+    padding: 0;
+}
+
+
+
+
+
+
 
 /******* HOME PAGE ************************************************************/
 
