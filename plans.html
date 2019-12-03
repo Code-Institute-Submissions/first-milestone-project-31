@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Gym</title>
+</head>
+<body>
+   <header class="row no-gutters">
+        <a class="col-4" href="index.html"><i class="fas fa-dumbbell home-icon" aria-hidden="true"></i></a>
+        <div class="desktop-nav d-none d-md-block offset-4 col-4 ">
+              <ul class="menu-list">
+                <li class="menu-item"><a href="classes.html">Classes</a></li>
+                <li class="menu-item"><a href="plans.html">Plans</a></li>
+            </ul>
+        </div>
+        <nav class="navbar offset-4 col-4">
+            <div class="dropdown d-md-none">
+              <button class="navbar-toggle menu-button" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="classes.html">Classes</a>
+                <a class="dropdown-item" href="plans.html">Plans</a>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="row no-gutters">
+        <div class="col-12 top-section">
+            <h1>Plans</h1>
+        </div>
+    </section>
+    <section class="row no-gutters">
+        <div class="col-md-6 offset-md-3 offset-lg-0 col-lg-4">
+            <div class="plan-wrapper-gold">
+                <div class="plan-badge-gold">
+                    <i class="fas fa-dumbbell" id="gold-badge" aria-hidden="true"></i>
+                </div>
+                <h4 id="gold-title">Gold Plan</h4>
+                <ul class="plan-list">
+                    <li>Full Gym Access<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>All classes inclusive<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>7 day access to personal trainer<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>Diet and Nutrition plan provided<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>Continuous fitness assessment<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>Coffee shop discounts<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>Free sauna and pool access<i class="far fa-check-circle" id="gold-check"></i></li>
+                    <li>Spa discounts<i class="far fa-check-circle" id="gold-check"></i></li>
+                </ul>
+                <span id="gold-price">€49/month</span>
+                <i class="fas fa-medal" id="gold-medal"></i>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+                <div class="plan-wrapper-silver">
+                    <div class="plan-badge-silver">
+                        <i class="fas fa-dumbbell" id="silver-badge" aria-hidden="true"></i>
+                    </div>
+                    <h4 id="silver-title">Silver Plan</h4>
+                    <ul class="plan-list">
+                        <li>Full Gym Access<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>All classes inclusive<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>7 day access to personal trainer<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>Diet and Nutrition plan provided<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>Discounted sauna and pool access<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>Bi-annual fitness assessment<i class="far fa-check-circle" id="silver-check"></i></li>
+                        <li>Coffee shop discounts<i class="far fa-check-circle" id="silver-check"></i></li>
+                        
+                    </ul>
+                    <span id="silver-price">€29/month</span>
+                    <i class="fas fa-medal" id="silver-medal"></i>
+                </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+                <div class="plan-wrapper-bronze">
+                    <div class="plan-badge-bronze">
+                        <i class="fas fa-dumbbell" id="bronze-badge" aria-hidden="true"></i>
+                    </div>
+                    <h4 id="bronze-title">Bronze Plan</h4>
+                    <ul class="plan-list">
+                        <li>Full Gym Access<i class="far fa-check-circle" id="bronze-check"></i></li>
+                        <li>All classes inclusive<i class="far fa-check-circle" id="bronze-check"></i></li>
+                        <li>Diet and Nutrition plan provided<i class="far fa-check-circle" id="bronze-check"></i></li>
+                        <li>Bi-annual fitness assessment<i class="far fa-check-circle" id="bronze-check"></i></li>
+                    </ul>
+                    <span id="bronze-price">€19/month</span>
+                    <i class="fas fa-medal" id="bronze-medal"></i>
+                </div>
+        </div>
+    </section>
+     <footer class="row no-gutters">
+        <div class="col-md-6 col-lg-4">
+                <h3 class="footer-title" >Opening Hours</h3>
+                <div class="hours-wrapper">
+                    <div class="hours-item">
+                        <div class="day"><span>Monday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Tuesday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Wednesday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Thursday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Friday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Saturday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                    <div class="hours-item">
+                        <div class="day"><span>Sunday</span></div>
+                        <div class="hours"><span>09:00 - 22:00</span></div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-6 col-lg-8">
+            <div class="row no-gutters"> 
+                <div class="col-lg-6">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-list" >
+                        <li class="contact-item"><i class="fas fa-location-arrow contact-icon"></i>101 Timbuktu Avenue</li>
+                        <li class="contact-item"><i class="fas fa-phone contact-icon"></i>555-1234</li>
+                        <li class="contact-item"><i class="far fa-envelope contact-icon"></i>upliftTC@email.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                     <h3 class="footer-title">Connect</h3>
+                     <ul class="footer-list" id="connect-list">
+                        <li class="connect-item"><a href="https://www.facebook.com/" target="_blank"><img src="assets/images/default_facebook.png"></a></li>
+                        <li class="connect-item"><a href="https://www.instagram.com/" target="_blank"><img src="assets/images/default_instagram.png"></a></li>
+                        <li class="connect-item"><a href="https://www.twitter.com/" target="_blank"><img src="assets/images/default_twitter.png"></a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
