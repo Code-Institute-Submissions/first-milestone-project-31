@@ -319,7 +319,6 @@ header {
 .classes-name {
     height:35px;
     width: 150px;
-    font-family:'Lato', sans-serif;
     background-color: #ffd600;
     color: #fafafa;
    /* border-radius: 20px;*/
@@ -331,6 +330,8 @@ header {
 .classes-name h6 {
     position: relative;
     transform: translateY(30%);
+    font-family:'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .classes-wrapper {
