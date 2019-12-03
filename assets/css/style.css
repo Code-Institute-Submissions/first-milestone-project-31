@@ -93,6 +93,8 @@ header {
     padding: 0;
 }
 
+.navbar-toggle:focus { outline: none; }
+
 /******* HOME PAGE ************************************************************/
 
 .home-top {
