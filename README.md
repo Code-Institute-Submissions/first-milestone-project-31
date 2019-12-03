@@ -1,6 +1,8 @@
 # First milestone project - "Uplift Training Center gym website"
 
-One or two paragraphs providing an overview of your project.
+This project website is for a fictional gym called Uplift Training Center.  The site provides prospective gym clients with the basic information they might want
+when considering joining a gym. i.e. classes, open hours, contact information and price plans.  The site is comprised of 3 static webpages and can be viewed in desktop, tablet and
+mobile devices.   
 
 Essentially, this part is your sales pitch.
  
