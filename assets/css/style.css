@@ -72,7 +72,8 @@ header {
     padding: 0;
     color: #c7a500;
     font-family:'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 28px;
 }
 
 .dropdown-item:hover {
