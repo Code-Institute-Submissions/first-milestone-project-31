@@ -53,12 +53,13 @@ header {
     text-decoration: none;
 }
 
+/* Overwriting bootstrap's dropdown-menu and dropdown-item classes */
 .dropdown {
     margin-left:auto; 
     margin-right: 15px;
 }
 
-/* Overwriting bootstrap's dropdown-menu and dropdown-item classes */
+
 .dropdown-menu {
     background: transparent;
     border: transparent;
@@ -344,10 +345,9 @@ header {
     transition: all .2s ease-in-out;
 }
 
-.classes-wrapper:hover .classes-name {
-    /*background-color: #c7a500;  
-    border: 1px solid #ffd600;*/
-}
+/*.classes-wrapper:hover .classes-name {
+   background-color: #c7a500;  
+}*/
 
 /******* PLANS SCREEN ***********/
 
@@ -520,7 +520,7 @@ footer {
 
 .contact-icon {
     color: #ffd600;
-    padding-right: 5px;
+    padding-right: 10px;
     margin-bottom: 10px;
 }
 
@@ -538,9 +538,10 @@ footer {
 }
 
 .connect-item img {
+    box-sizing: content-box;
     height: 40px;
     width: 40px;
-    padding: 0;
+    padding-right: 5px;
 }
 
 .hours-wrapper {
@@ -551,7 +552,6 @@ footer {
     display: inline-block;
     font-family:'Lato', sans-serif;
 }
-
 
 .day {
     width: 150px;
