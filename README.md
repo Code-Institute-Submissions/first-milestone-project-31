@@ -90,3 +90,4 @@ The version deployed on github pages is the final version.
 
 - The classes timetable overlay that is displayed on hover was inpsired by the classes timetable on fitnessfactorymaine.com. However, no code was copied, and the implementation is not the same.
 - The general layout of the site was inspired by the gym websites fitnessfactorymaine.com and burnpilates.com.
+- The Hamburger menu's transparent dropdown was inspired by the dropdown at https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/index.html
